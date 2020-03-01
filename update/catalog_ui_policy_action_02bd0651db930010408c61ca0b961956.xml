@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:85150e19db530010408c61ca0b96191f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-01 07:54:16</sys_created_on>
+        <sys_id>02bd0651db930010408c61ca0b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Leave Application" source="x_140983_leave_app">f207b919db130010408c61ca0b9619f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Application">f207b919db130010408c61ca0b9619f1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_02bd0651db930010408c61ca0b961956</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-01 07:54:16</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set Employee Id ReadOnly">0d0c0adddb530010408c61ca0b96198f</ui_policy>
+        <variable>name</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

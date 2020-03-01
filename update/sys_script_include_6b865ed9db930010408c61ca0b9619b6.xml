@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_140983_leave_app.leaveAppServer</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>leaveAppServer</name>
+        <script><![CDATA[var leaveAppServer = Class.create();
+leaveAppServer.prototype = {
+	initialize: function() {
+	},
+	
+	getManager : function(user)
+	{
+		gs.error("aj: "+user);
+		var grUser = new GlideRecord('sys_user');
+		grUser.get(user);
+		
+		return grUser.manager;
+	},
+	
+	getEmployeeId : function(user)
+	{
+
+		var grUser = new GlideRecord('sys_user');
+		grUser.get(user);
+		
+		return grUser.employee_number;
+	},
+	
+	
+	type: 'leaveAppServer'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-01 08:33:37</sys_created_on>
+        <sys_id>6b865ed9db930010408c61ca0b9619b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>leaveAppServer</sys_name>
+        <sys_package display_value="Leave Application" source="x_140983_leave_app">f207b919db130010408c61ca0b9619f1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Leave Application">f207b919db130010408c61ca0b9619f1</sys_scope>
+        <sys_update_name>sys_script_include_6b865ed9db930010408c61ca0b9619b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-01 08:37:16</sys_updated_on>
+    </sys_script_include>
+</record_update>
